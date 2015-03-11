@@ -120,7 +120,7 @@ class msResourceFileUploadProcessor extends modObjectProcessor {
 				return $this->failure($this->modx->lexicon('ms2gallery_err_gallery_thumb'));
 			}
 			else {
-				return $this->success();
+				return $this->success('', $product_file);
 			}
 		}
 		else {
